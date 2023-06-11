@@ -33,10 +33,28 @@ Open the conflict resolution screen:
 
 Resolve conflicts. Example:
 
-- Go to next conflict: `]c`
-- Accept left screen option: `:diffget //2`
-- Accept right screen option: `:diffget //3`
+- Go to next conflict:
 
-When there are no more conflicts save the changes: `:xa`.
+  ```bash
+  ]c
+  ```
+
+- Accept left screen option:
+
+  ```bash
+  :diffget //2
+  ```
+
+- Accept right screen option:
+
+  ```bash
+  :diffget //3
+  ```
+
+When there are no more conflicts save the changes:
+
+```bash
+:xa
+```
 
 Resource: <https://medium.com/prodopsio/solving-git-merge-conflicts-with-vim-c8a8617e3633>
